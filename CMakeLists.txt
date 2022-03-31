@@ -3,4 +3,4 @@ project(NoobServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(NoobServer main.cpp)
+add_executable(NoobServer main.cpp server.cpp server.h)
